@@ -1,5 +1,7 @@
 #include "main.h"
 
+#define BUF_SIZE 1024
+
 /**
  * main - the main function
  * @argc: argument count
