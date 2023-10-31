@@ -24,9 +24,9 @@ int main(int argc, char **argv)
 	{
 		return (0);
 	}
-	file_from = open(argv[2], O_RDONLY);
-	error_98(file_from, buffer, argv[2]);
-	file_to = open(argv[2], O_WRONLY | O_TRUNC | O_CREAT, 0664);
+	file_from = open(argv[1], O_RDONLY);
+	error_98(file_from, buffer, argv[1]);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	error_99(file_to, buffer, argv[2]);
 	do {
 		fd_to = read(file_from, buffer, BUF_SIZE);
