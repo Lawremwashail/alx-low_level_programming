@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * print_dlistint_len - function that returns all elements of dlistint_t list
+ * dlistint_len - function that returns all elements of dlistint_t list
  * @h: head pointer
  * Return: number of nodes
  */
 
-size_t print_dlistint_len(const dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	int el_num = 0;
 
