@@ -1,6 +1,6 @@
 CC = gcc
-SRC = mai.c school.c
-OBJ = $(SRC:.c=o)
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
 all: $(OBJ)
